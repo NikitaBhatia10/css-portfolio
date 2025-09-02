@@ -1,0 +1,101 @@
+.gradient-background {
+  background: linear-gradient(300deg, #5D688A, #F7A5A5, #FFDBB6);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bi{
+    height: 200px;
+}
+
+.profile-pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 50px;
+}
+
+.description{
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contact-me{
+    display: block;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color:#40514e;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color:#40514e;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.btn {
+    background:#F7A5A5;
+    background-image: linear-gradient(to bottom,#5D688A, #F7A5A5, #FFDBB6);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+
+.bottom-container{
+    background-color:#F7A5A5 ;
+    padding: 20px 0 20px;
+    
+    
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
